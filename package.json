@@ -1,0 +1,16 @@
+{
+  "name": "tesda-banking-app",
+  "private": true,
+  "scripts": {
+    "backend": "dotenv -e .env -- backend\\mvnw.cmd -f backend\\pom.xml -Dmaven.test.skip=true spring-boot:run",
+    "frontend": "npm.cmd --prefix frontend run dev",
+    "dev": "concurrently --kill-others --names BACKEND,FRONTEND --prefix-colors blue,green \"npm:backend\" \"npm:frontend\"",
+    "build:frontend": "npm.cmd --prefix frontend run build",
+    "build:backend": "backend\\mvnw.cmd -f backend\\pom.xml -Dmaven.test.skip=true package",
+    "build": "npm.cmd run build:frontend && npm.cmd run build:backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "dotenv-cli": "^11.0.0"
+  }
+}

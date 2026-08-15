@@ -1,0 +1,1129 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.tesda:banking-app >------------------------
+[INFO] Building TESDA Banking App 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.0:run (default-cli) > test-compile @ banking-app >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ banking-app ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ banking-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ banking-app ---
+[INFO] skip non existing resourceDirectory C:\Users\ariel doctor\Desktop\TESDA-Banking-app\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ banking-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.0:run (default-cli) < test-compile @ banking-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.0:run (default-cli) @ banking-app ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.pom
+Progress (1): 1.0 kBProgress (1): 2.8 kBProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.pom (3.0 kB at 3.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.pom
+Progress (1): 1.3 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.pom (2.3 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom
+Progress (1): 1.4 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom (2.0 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.pom
+Progress (1): 749 BProgress (1): 1.6 kBProgress (1): 3.1 kBProgress (1): 4.8 kBProgress (1): 6.8 kBProgress (1): 9.8 kBProgress (1): 13 kB Progress (1): 15 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.pom (23 kB at 311 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/72/commons-parent-72.pom
+Progress (1): 705 BProgress (1): 1.6 kBProgress (1): 2.8 kBProgress (1): 4.3 kBProgress (1): 5.4 kBProgress (1): 7.7 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 15 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 26 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 36 kBProgress (1): 40 kBProgress (1): 42 kBProgress (1): 45 kBProgress (1): 48 kBProgress (1): 49 kBProgress (1): 52 kBProgress (1): 56 kBProgress (1): 57 kBProgress (1): 60 kBProgress (1): 63 kBProgress (1): 66 kBProgress (1): 69 kBProgress (1): 72 kBProgress (1): 74 kBProgress (1): 76 kBProgress (1): 78 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/72/commons-parent-72.pom (78 kB at 928 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom
+Progress (1): 741 BProgress (1): 1.6 kBProgress (1): 3.4 kBProgress (1): 5.2 kBProgress (1): 7.2 kBProgress (1): 13 kB Progress (1): 17 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom (24 kB at 356 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0-M2/junit-bom-5.11.0-M2.pom
+Progress (1): 908 BProgress (1): 2.2 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0-M2/junit-bom-5.11.0-M2.pom (5.7 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.pom
+Progress (1): 744 BProgress (1): 1.6 kBProgress (1): 3.6 kBProgress (1): 5.5 kBProgress (1): 6.8 kBProgress (1): 9.2 kBProgress (1): 13 kB Progress (1): 15 kBProgress (1): 17 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.pom (18 kB at 217 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/71/commons-parent-71.pom
+Progress (1): 708 BProgress (1): 1.6 kBProgress (1): 2.8 kBProgress (1): 4.2 kBProgress (1): 5.4 kBProgress (1): 7.6 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 15 kBProgress (1): 17 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 24 kBProgress (1): 27 kBProgress (1): 30 kBProgress (1): 34 kBProgress (1): 39 kBProgress (1): 42 kBProgress (1): 44 kBProgress (1): 47 kBProgress (1): 50 kBProgress (1): 51 kBProgress (1): 54 kBProgress (1): 57 kBProgress (1): 59 kBProgress (1): 63 kBProgress (1): 67 kBProgress (1): 69 kBProgress (1): 73 kBProgress (1): 75 kBProgress (1): 75 kBProgress (1): 78 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/71/commons-parent-71.pom (78 kB at 926 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom
+Progress (1): 815 BProgress (1): 2.3 kBProgress (1): 4.8 kBProgress (1): 6.6 kBProgress (1): 8.8 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 16 kBProgress (1): 19 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom (20 kB at 269 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+Progress (1): 708 BProgress (1): 1.9 kBProgress (1): 3.1 kBProgress (1): 4.7 kBProgress (1): 6.4 kBProgress (1): 8.4 kBProgress (1): 10 kB Progress (1): 11 kBProgress (1): 13 kBProgress (1): 15 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 22 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 33 kBProgress (1): 38 kBProgress (1): 41 kBProgress (1): 45 kBProgress (1): 47 kBProgress (1): 50 kBProgress (1): 52 kBProgress (1): 56 kBProgress (1): 58 kBProgress (1): 59 kBProgress (1): 63 kBProgress (1): 65 kBProgress (1): 70 kBProgress (1): 72 kBProgress (1): 75 kBProgress (1): 77 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom (77 kB at 770 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom
+Progress (1): 739 BProgress (1): 2.1 kBProgress (1): 3.9 kBProgress (1): 6.2 kBProgress (1): 11 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom (24 kB at 314 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.pom
+Progress (1): 744 BProgress (1): 1.8 kBProgress (1): 4.1 kBProgress (1): 5.7 kBProgress (1): 7.5 kBProgress (1): 10.0 kBProgress (1): 13 kB  Progress (1): 14 kBProgress (1): 17 kBProgress (1): 20 kBProgress (1): 24 kBProgress (1): 27 kBProgress (1): 30 kBProgress (1): 31 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.pom (31 kB at 422 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.pom
+Progress (1): 869 BProgress (1): 3.1 kBProgress (1): 5.8 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.pom (6.7 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.6.1/httpclient5-parent-5.6.1.pom
+Progress (1): 837 BProgress (1): 2.2 kBProgress (1): 3.9 kBProgress (1): 8.6 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.6.1/httpclient5-parent-5.6.1.pom (20 kB at 283 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/14/httpcomponents-parent-14.pom
+Progress (1): 805 BProgress (1): 2.2 kBProgress (1): 4.0 kBProgress (1): 5.9 kBProgress (1): 7.1 kBProgress (1): 8.5 kBProgress (1): 13 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 28 kBProgress (1): 30 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/14/httpcomponents-parent-14.pom (30 kB at 467 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom
+Progress (1): 745 BProgress (1): 2.1 kBProgress (1): 3.9 kBProgress (1): 7.3 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 19 kBProgress (1): 19 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom (20 kB at 287 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.3/junit-bom-5.13.3.pom
+Progress (1): 908 BProgress (1): 4.1 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.13.3/junit-bom-5.13.3.pom (5.7 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-bom/1.49.0/opentelemetry-bom-1.49.0.pom
+Progress (1): 961 BProgress (1): 5.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-bom/1.49.0/opentelemetry-bom-1.49.0.pom (5.9 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.pom
+Progress (1): 883 BProgress (1): 2.9 kBProgress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.pom (3.9 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.4/httpcore5-parent-5.4.pom
+Progress (1): 843 BProgress (1): 2.2 kBProgress (1): 3.9 kBProgress (1): 7.9 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.4/httpcore5-parent-5.4.pom (15 kB at 216 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.pom
+Progress (1): 889 BProgress (1): 3.1 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.pom (3.6 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.pom
+Progress (1): 740 BProgress (1): 2.1 kBProgress (1): 3.9 kBProgress (1): 5.4 kBProgress (1): 8.5 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 16 kBProgress (1): 21 kBProgress (1): 24 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 32 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.pom (32 kB at 447 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/81/commons-parent-81.pom
+Progress (1): 701 BProgress (1): 1.9 kBProgress (1): 3.2 kBProgress (1): 4.7 kBProgress (1): 6.8 kBProgress (1): 9.2 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 32 kBProgress (1): 37 kBProgress (1): 41 kBProgress (1): 45 kBProgress (1): 47 kBProgress (1): 50 kBProgress (1): 52 kBProgress (1): 56 kBProgress (1): 58 kBProgress (1): 61 kBProgress (1): 64 kBProgress (1): 69 kBProgress (1): 71 kBProgress (1): 74 kBProgress (1): 76 kBProgress (1): 78 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/81/commons-parent-81.pom (78 kB at 957 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom
+Progress (1): 908 BProgress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom (5.6 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.pom
+Progress (1): 1.2 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.pom (2.8 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.pom
+Progress (1): 915 BProgress (1): 3.3 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.pom (3.6 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.7.2/antlr4-master-4.7.2.pom
+Progress (1): 1.0 kBProgress (1): 2.9 kBProgress (1): 4.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.7.2/antlr4-master-4.7.2.pom (4.4 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+Progress (1): 1.0 kBProgress (1): 3.7 kBProgress (1): 4.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.pom (2.2 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.pom
+Progress (1): 1.1 kBProgress (1): 3.4 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.pom (3.8 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.pom
+Progress (1): 1.1 kBProgress (1): 3.2 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.pom (3.6 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.pom
+Progress (1): 773 BProgress (1): 2.3 kBProgress (1): 4.9 kBProgress (1): 8.0 kBProgress (1): 11 kB Progress (1): 12 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.pom (12 kB at 162 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/42/maven-plugins-42.pom
+Progress (1): 773 BProgress (1): 2.4 kBProgress (1): 4.9 kBProgress (1): 7.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/42/maven-plugins-42.pom (7.7 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom
+Progress (1): 726 BProgress (1): 2.4 kBProgress (1): 4.4 kBProgress (1): 8.6 kBProgress (1): 8.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom (8.8 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom
+Progress (1): 696 BProgress (1): 2.7 kBProgress (1): 6.4 kBProgress (1): 9.2 kBProgress (1): 11 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 24 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom (25 kB at 310 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.pom
+Progress (1): 1.3 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.pom (2.4 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.pom
+Progress (1): 1.1 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.pom (2.8 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.pom
+Progress (1): 1.1 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.pom (2.6 kB at 6.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom
+Progress (1): 956 BProgress (1): 2.2 kBProgress (1): 3.2 kBProgress (1): 4.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom (4.6 kB at 70 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.pom
+Progress (1): 758 BProgress (1): 1.9 kBProgress (1): 3.7 kBProgress (1): 5.4 kBProgress (1): 9.3 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.pom (23 kB at 353 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.pom
+Progress (1): 745 BProgress (1): 1.9 kBProgress (1): 4.0 kBProgress (1): 5.8 kBProgress (1): 8.4 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 17 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.pom (18 kB at 259 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+Progress (1): 820 BProgress (1): 2.2 kBProgress (1): 4.6 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 17 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 24 kBProgress (1): 28 kBProgress (1): 30 kBProgress (1): 31 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom (31 kB at 391 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
+Progress (1): 706 BProgress (1): 1.9 kBProgress (1): 3.1 kBProgress (1): 4.7 kBProgress (1): 6.4 kBProgress (1): 8.4 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 15 kBProgress (1): 18 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 28 kBProgress (1): 32 kBProgress (1): 32 kBProgress (1): 35 kBProgress (1): 41 kBProgress (1): 44 kBProgress (1): 46 kBProgress (1): 49 kBProgress (1): 51 kBProgress (1): 54 kBProgress (1): 58 kBProgress (1): 60 kBProgress (1): 64 kBProgress (1): 67 kBProgress (1): 71 kBProgress (1): 74 kBProgress (1): 76 kBProgress (1): 78 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom (78 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom
+Progress (1): 743 BProgress (1): 2.1 kBProgress (1): 4.0 kBProgress (1): 6.3 kBProgress (1): 11 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 22 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom (23 kB at 358 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom
+Progress (1): 913 BProgress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom (5.6 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.10/jdependency-2.10.pom
+Progress (1): 1.1 kBProgress (1): 4.9 kBProgress (1): 8.5 kBProgress (1): 12 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.10/jdependency-2.10.pom (14 kB at 190 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar
+Progress (1): 7.7/333 kBProgress (1): 16/333 kB Progress (1): 32/333 kBProgress (1): 49/333 kBProgress (1): 65/333 kBProgress (1): 81/333 kBProgress (1): 98/333 kBProgress (1): 114/333 kBProgress (1): 131/333 kBProgress (1): 147/333 kBProgress (1): 163/333 kBProgress (1): 180/333 kBProgress (1): 196/333 kBProgress (1): 212/333 kBProgress (1): 229/333 kBProgress (1): 245/333 kBProgress (1): 262/333 kBProgress (1): 278/333 kBProgress (1): 294/333 kBProgress (1): 311/333 kBProgress (1): 327/333 kBProgress (1): 333 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar (333 kB at 2.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar
+Progress (1): 0/2.0 MBProgress (1): 0/2.0 MBProgress (1): 0/2.0 MBProgress (1): 0/2.0 MBProgress (1): 0.1/2.0 MBProgress (1): 0.1/2.0 MBProgress (1): 0.1/2.0 MBProgress (1): 0.1/2.0 MBProgress (1): 0.1/2.0 MBProgress (1): 0.1/2.0 MBProgress (1): 0.2/2.0 MBProgress (1): 0.2/2.0 MBProgress (1): 0.2/2.0 MBProgress (1): 0.2/2.0 MBProgress (1): 0.2/2.0 MBProgress (1): 0.2/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.3/2.0 MBProgress (1): 0.4/2.0 MBProgress (1): 0.4/2.0 MBProgress (1): 0.4/2.0 MBProgress (1): 0.4/2.0 MBProgress (1): 0.4/2.0 MBProgress (1): 0.4/2.0 MBProgress (1): 0.5/2.0 MBProgress (1): 0.5/2.0 MBProgress (1): 0.5/2.0 MBProgress (1): 0.5/2.0 MBProgress (1): 0.5/2.0 MBProgress (1): 0.5/2.0 MBProgress (1): 0.6/2.0 MBProgress (1): 0.6/2.0 MBProgress (1): 0.6/2.0 MBProgress (1): 0.6/2.0 MBProgress (1): 0.6/2.0 MBProgress (1): 0.6/2.0 MBProgress (1): 0.7/2.0 MBProgress (1): 0.7/2.0 MBProgress (1): 0.7/2.0 MBProgress (1): 0.7/2.0 MBProgress (2): 0.7/2.0 MB | 0.9/674 kBProgress (2): 0.7/2.0 MB | 2.3/674 kBProgress (2): 0.7/2.0 MB | 3.6/674 kBProgress (2): 0.7/2.0 MB | 3.6/674 kBProgress (2): 0.7/2.0 MB | 5.0/674 kBProgress (2): 0.7/2.0 MB | 6.4/674 kBProgress (2): 0.7/2.0 MB | 7.7/674 kBProgress (2): 0.7/2.0 MB | 7.7/674 kBProgress (2): 0.7/2.0 MB | 9.1/674 kBProgress (2): 0.7/2.0 MB | 10/674 kB Progress (2): 0.7/2.0 MB | 12/674 kBProgress (2): 0.7/2.0 MB | 13/674 kBProgress (2): 0.7/2.0 MB | 15/674 kBProgress (2): 0.7/2.0 MB | 16/674 kBProgress (2): 0.7/2.0 MB | 17/674 kBProgress (2): 0.7/2.0 MB | 19/674 kBProgress (2): 0.7/2.0 MB | 19/674 kBProgress (2): 0.7/2.0 MB | 20/674 kBProgress (2): 0.7/2.0 MB | 21/674 kBProgress (2): 0.7/2.0 MB | 23/674 kBProgress (2): 0.7/2.0 MB | 24/674 kBProgress (2): 0.7/2.0 MB | 26/674 kBProgress (2): 0.8/2.0 MB | 26/674 kBProgress (2): 0.8/2.0 MB | 27/674 kBProgress (2): 0.8/2.0 MB | 28/674 kBProgress (2): 0.8/2.0 MB | 29/674 kBProgress (2): 0.8/2.0 MB | 29/674 kBProgress (2): 0.8/2.0 MB | 30/674 kBProgress (2): 0.8/2.0 MB | 32/674 kBProgress (2): 0.8/2.0 MB | 33/674 kBProgress (2): 0.8/2.0 MB | 35/674 kBProgress (2): 0.8/2.0 MB | 35/674 kBProgress (2): 0.8/2.0 MB | 36/674 kBProgress (2): 0.8/2.0 MB | 37/674 kBProgress (2): 0.8/2.0 MB | 39/674 kBProgress (2): 0.8/2.0 MB | 40/674 kBProgress (2): 0.8/2.0 MB | 41/674 kBProgress (2): 0.8/2.0 MB | 43/674 kBProgress (2): 0.8/2.0 MB | 44/674 kBProgress (2): 0.8/2.0 MB | 46/674 kBProgress (2): 0.8/2.0 MB | 47/674 kBProgress (2): 0.8/2.0 MB | 48/674 kBProgress (2): 0.8/2.0 MB | 48/674 kBProgress (2): 0.8/2.0 MB | 50/674 kBProgress (2): 0.8/2.0 MB | 51/674 kBProgress (2): 0.8/2.0 MB | 52/674 kBProgress (2): 0.8/2.0 MB | 54/674 kBProgress (2): 0.8/2.0 MB | 55/674 kBProgress (2): 0.8/2.0 MB | 59/674 kBProgress (2): 0.8/2.0 MB | 59/674 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 0.9/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 2.3/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 3.6/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 5.0/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 6.4/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 7.7/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 9.1/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 10/373 kB Progress (3): 0.8/2.0 MB | 59/674 kB | 12/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 12/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 13/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 15/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 15/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 17/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 18/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 20/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 21/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 22/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 24/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 25/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 26/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 28/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 29/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 31/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 32/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 33/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 35/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 36/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 37/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 39/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 40/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 41/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 43/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 44/373 kBProgress (3): 0.8/2.0 MB | 59/674 kB | 46/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 46/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 47/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 48/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 50/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 50/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 51/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 52/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 54/373 kBProgress (3): 0.9/2.0 MB | 59/674 kB | 55/373 kBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 0.9/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.0/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.1/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.1/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.2/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.3/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.4/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.5/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.6/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.7/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.7/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.7/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.7/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.7/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.7/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.8/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.8/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.8/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.8/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.8/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.8/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.9/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.9/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.9/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.9/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.9/2.0 MB | 59/674 kB | 55/373 kB | 0.2/1.4 MBProgress (4): 1.9/2.0 MB | 59/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 64/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 64/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 64/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 64/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 68/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 68/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 68/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 68/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 72/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 76/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 81/674 kB | 55/373 kB | 0.3/1.4 MBProgress (4): 1.9/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 1.9/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 1.9/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 81/674 kB | 55/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 81/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 81/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 85/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 89/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 93/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 97/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 102/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0/2.0 MB | 106/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0 MB | 106/674 kB | 59/373 kB | 0.4/1.4 MB    Progress (4): 2.0 MB | 106/674 kB | 59/373 kB | 0.4/1.4 MBProgress (4): 2.0 MB | 106/674 kB | 64/373 kB | 0.4/1.4 MBProgress (4): 2.0 MB | 106/674 kB | 66/373 kB | 0.4/1.4 MBProgress (4): 2.0 MB | 106/674 kB | 70/373 kB | 0.4/1.4 MBProgress (4): 2.0 MB | 106/674 kB | 70/373 kB | 0.4/1.4 MB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar (2.0 MB at 4.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar
+Progress (3): 110/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 114/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 119/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 119/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 123/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 127/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 131/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 135/674 kB | 70/373 kB | 0.4/1.4 MBProgress (3): 135/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 140/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 144/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 148/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 152/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 152/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 157/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 159/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 163/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 163/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 167/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 172/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 176/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 180/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 180/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 184/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 188/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 193/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 197/674 kB | 70/373 kB | 0.5/1.4 MBProgress (3): 197/674 kB | 70/373 kB | 0.5/1.4 MBProgress (4): 197/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 197/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 197/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 201/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 205/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 210/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 210/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 214/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 214/674 kB | 70/373 kB | 0.5/1.4 MB | 0/1.1 MBProgress (4): 214/674 kB | 70/373 kB | 0.5/1.4 MB | 0.1/1.1 MBProgress (4): 218/674 kB | 70/373 kB | 0.5/1.4 MB | 0.1/1.1 MBProgress (4): 222/674 kB | 70/373 kB | 0.5/1.4 MB | 0.1/1.1 MBProgress (4): 222/674 kB | 74/373 kB | 0.5/1.4 MB | 0.1/1.1 MBProgress (4): 222/674 kB | 78/373 kB | 0.5/1.4 MB | 0.1/1.1 MBProgress (4): 222/674 kB | 82/373 kB | 0.5/1.4 MB | 0.1/1.1 MBProgress (4): 222/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 239/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 255/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 255/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 271/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 271/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 288/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 290/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 290/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 306/674 kB | 82/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 306/674 kB | 87/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 306/674 kB | 87/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 306/674 kB | 91/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 306/674 kB | 95/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 306/674 kB | 99/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 323/674 kB | 99/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 323/674 kB | 99/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 339/674 kB | 99/373 kB | 0.6/1.4 MB | 0.1/1.1 MBProgress (4): 339/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.1/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 355/674 kB | 99/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 99/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 99/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.2/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 372/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.3/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.4/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.4/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.4/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.4/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.4/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.4/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.5/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.5/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.5/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.5/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.5/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.5/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 388/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 405/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 421/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 421/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 437/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 437/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 454/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 454/674 kB | 104/373 kB | 0.7/1.4 MB | 0.6/1.1 MBProgress (4): 454/674 kB | 104/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 454/674 kB | 104/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 454/674 kB | 104/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 454/674 kB | 108/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 108/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 112/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 115/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 119/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 119/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 119/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 123/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 127/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 131/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 131/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 135/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 135/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 140/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 140/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 140/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 140/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 140/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 144/373 kB | 0.7/1.4 MB | 0.7/1.1 MBProgress (4): 470/674 kB | 144/373 kB | 0.7/1.4 MB | 0.8/1.1 MBProgress (4): 470/674 kB | 144/373 kB | 0.7/1.4 MB | 0.8/1.1 MBProgress (4): 470/674 kB | 144/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 470/674 kB | 144/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 487/674 kB | 144/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 487/674 kB | 144/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 487/674 kB | 144/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 487/674 kB | 144/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 487/674 kB | 148/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 487/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 503/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 519/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 536/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 552/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 568/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 568/674 kB | 152/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 568/674 kB | 156/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 585/674 kB | 156/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 585/674 kB | 161/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 161/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 165/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 169/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 173/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 178/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 180/373 kB | 0.8/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 180/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 184/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 189/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 189/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 193/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 601/674 kB | 197/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 618/674 kB | 197/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 618/674 kB | 201/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 618/674 kB | 201/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 618/674 kB | 205/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 618/674 kB | 209/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 209/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 214/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 214/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.8/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 634/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 650/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 650/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 650/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 667/674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MB    Progress (4): 674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 674 kB | 218/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 674 kB | 234/373 kB | 0.9/1.4 MB | 0.9/1.1 MBProgress (4): 674 kB | 234/373 kB | 0.9/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 0.9/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 0.9/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 0.9/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 1.0/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 1.0/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 1.0/1.4 MB | 1.0/1.1 MBProgress (4): 674 kB | 234/373 kB | 1.0/1.4 MB | 1.1 MB    Progress (4): 674 kB | 234/373 kB | 1.0/1.4 MB | 1.1 MBProgress (4): 674 kB | 234/373 kB | 1.0/1.4 MB | 1.1 MBProgress (4): 674 kB | 251/373 kB | 1.0/1.4 MB | 1.1 MB                                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar (674 kB at 765 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar (1.1 MB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar
+Progress (2): 251/373 kB | 1.0/1.4 MBProgress (2): 267/373 kB | 1.0/1.4 MBProgress (2): 267/373 kB | 1.0/1.4 MBProgress (2): 267/373 kB | 1.0/1.4 MBProgress (2): 283/373 kB | 1.0/1.4 MBProgress (2): 283/373 kB | 1.1/1.4 MBProgress (2): 300/373 kB | 1.1/1.4 MBProgress (2): 300/373 kB | 1.1/1.4 MBProgress (2): 316/373 kB | 1.1/1.4 MBProgress (3): 316/373 kB | 1.1/1.4 MB | 7.7/953 kBProgress (3): 316/373 kB | 1.1/1.4 MB | 16/953 kB Progress (3): 316/373 kB | 1.1/1.4 MB | 32/953 kBProgress (3): 316/373 kB | 1.1/1.4 MB | 48/953 kBProgress (4): 316/373 kB | 1.1/1.4 MB | 48/953 kB | 3.1/263 kBProgress (4): 316/373 kB | 1.1/1.4 MB | 65/953 kB | 3.1/263 kBProgress (4): 316/373 kB | 1.1/1.4 MB | 81/953 kB | 3.1/263 kBProgress (4): 316/373 kB | 1.1/1.4 MB | 97/953 kB | 3.1/263 kBProgress (4): 316/373 kB | 1.1/1.4 MB | 97/953 kB | 20/263 kB Progress (4): 328/373 kB | 1.1/1.4 MB | 97/953 kB | 20/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 114/953 kB | 20/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 114/953 kB | 36/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 130/953 kB | 36/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 147/953 kB | 36/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 163/953 kB | 36/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 163/953 kB | 52/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 179/953 kB | 52/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 196/953 kB | 52/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 196/953 kB | 69/263 kBProgress (4): 328/373 kB | 1.1/1.4 MB | 212/953 kB | 69/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 212/953 kB | 69/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 212/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 228/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 228/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 228/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 228/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.1/1.4 MB | 228/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 228/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 245/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 261/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 261/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 278/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 278/953 kB | 85/263 kBProgress (4): 344/373 kB | 1.2/1.4 MB | 278/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 278/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 294/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 294/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 310/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 310/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 327/953 kB | 85/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 327/953 kB | 101/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 327/953 kB | 118/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 327/953 kB | 134/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 327/953 kB | 151/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 343/953 kB | 151/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 343/953 kB | 167/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 343/953 kB | 183/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 360/953 kB | 183/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 360/953 kB | 200/263 kBProgress (4): 360/373 kB | 1.2/1.4 MB | 360/953 kB | 216/263 kBProgress (4): 373 kB | 1.2/1.4 MB | 360/953 kB | 216/263 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar (373 kB at 335 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar
+Progress (3): 1.2/1.4 MB | 360/953 kB | 233/263 kBProgress (3): 1.3/1.4 MB | 360/953 kB | 233/263 kBProgress (3): 1.3/1.4 MB | 376/953 kB | 233/263 kBProgress (3): 1.3/1.4 MB | 376/953 kB | 249/263 kBProgress (3): 1.3/1.4 MB | 392/953 kB | 249/263 kBProgress (3): 1.3/1.4 MB | 409/953 kB | 249/263 kBProgress (3): 1.3/1.4 MB | 425/953 kB | 249/263 kBProgress (3): 1.3/1.4 MB | 441/953 kB | 249/263 kBProgress (3): 1.3/1.4 MB | 441/953 kB | 263 kB    Progress (3): 1.3/1.4 MB | 458/953 kB | 263 kBProgress (3): 1.3/1.4 MB | 474/953 kB | 263 kBProgress (3): 1.3/1.4 MB | 491/953 kB | 263 kBProgress (3): 1.3/1.4 MB | 507/953 kB | 263 kBProgress (3): 1.3/1.4 MB | 523/953 kB | 263 kBProgress (3): 1.3/1.4 MB | 540/953 kB | 263 kBProgress (3): 1.3/1.4 MB | 556/953 kB | 263 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar (263 kB at 227 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
+Progress (2): 1.3/1.4 MB | 573/953 kBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.3/1.4 MB | 573/953 kB | 0/1.1 MBProgress (3): 1.4/1.4 MB | 573/953 kB | 0/1.1 MBProgress (4): 1.4/1.4 MB | 573/953 kB | 0/1.1 MB | 7.7/157 kBProgress (4): 1.4/1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kB Progress (4): 1.4/1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kB    Progress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 573/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 589/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 605/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 622/953 kB | 0/1.1 MB | 15/157 kBProgress (4): 1.4 MB | 622/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 638/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 654/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 671/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 687/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 704/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 720/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 736/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 753/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 769/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 786/953 kB | 0/1.1 MB | 32/157 kBProgress (4): 1.4 MB | 802/953 kB | 0/1.1 MB | 32/157 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar (1.4 MB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+Progress (3): 818/953 kB | 0/1.1 MB | 32/157 kBProgress (3): 835/953 kB | 0/1.1 MB | 32/157 kBProgress (3): 851/953 kB | 0/1.1 MB | 32/157 kBProgress (3): 867/953 kB | 0/1.1 MB | 32/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 32/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 884/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 900/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 900/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 917/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 933/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 933/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 933/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 933/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 949/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 949/953 kB | 0/1.1 MB | 48/157 kBProgress (3): 953 kB | 0/1.1 MB | 48/157 kB    Progress (3): 953 kB | 0/1.1 MB | 48/157 kBProgress (3): 953 kB | 0/1.1 MB | 48/157 kBProgress (3): 953 kB | 0/1.1 MB | 48/157 kBProgress (3): 953 kB | 0/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 48/157 kBProgress (3): 953 kB | 0.1/1.1 MB | 65/157 kBProgress (4): 953 kB | 0.1/1.1 MB | 65/157 kB | 7.7/338 kBProgress (4): 953 kB | 0.1/1.1 MB | 65/157 kB | 11/338 kB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar (953 kB at 782 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar
+Progress (3): 0.1/1.1 MB | 65/157 kB | 28/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 28/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 44/338 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 44/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 44/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 44/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 44/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 44/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 44/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 60/338 kB | 3.2/20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 60/338 kB | 20/20 kB Progress (4): 0.1/1.1 MB | 65/157 kB | 60/338 kB | 20 kB   Progress (4): 0.1/1.1 MB | 65/157 kB | 60/338 kB | 20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 60/338 kB | 20 kBProgress (4): 0.1/1.1 MB | 65/157 kB | 77/338 kB | 20 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (20 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar
+Progress (3): 0.1/1.1 MB | 65/157 kB | 77/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 77/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.1/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 93/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 110/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 126/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 126/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 126/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 142/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 142/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 142/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 142/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 142/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 142/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 65/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 81/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 81/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 97/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 98/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 115/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 131/157 kB | 159/338 kBProgress (3): 0.2/1.1 MB | 131/157 kB | 159/338 kBProgress (4): 0.2/1.1 MB | 131/157 kB | 159/338 kB | 7.7/342 kBProgress (4): 0.2/1.1 MB | 131/157 kB | 159/338 kB | 16/342 kB Progress (4): 0.2/1.1 MB | 131/157 kB | 159/338 kB | 16/342 kBProgress (4): 0.2/1.1 MB | 131/157 kB | 175/338 kB | 16/342 kBProgress (4): 0.2/1.1 MB | 131/157 kB | 175/338 kB | 16/342 kBProgress (4): 0.2/1.1 MB | 131/157 kB | 192/338 kB | 16/342 kBProgress (4): 0.2/1.1 MB | 131/157 kB | 208/338 kB | 16/342 kBProgress (5): 0.2/1.1 MB | 131/157 kB | 208/338 kB | 16/342 kB | 7.7/74 kBProgress (5): 0.2/1.1 MB | 131/157 kB | 208/338 kB | 16/342 kB | 8.2/74 kBProgress (5): 0.2/1.1 MB | 131/157 kB | 208/338 kB | 16/342 kB | 25/74 kB Progress (5): 0.2/1.1 MB | 131/157 kB | 208/338 kB | 16/342 kB | 41/74 kBProgress (5): 0.2/1.1 MB | 147/157 kB | 208/338 kB | 16/342 kB | 41/74 kBProgress (5): 0.2/1.1 MB | 157 kB | 208/338 kB | 16/342 kB | 41/74 kB                                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar (157 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar
+Progress (4): 0.2/1.1 MB | 224/338 kB | 16/342 kB | 41/74 kBProgress (4): 0.2/1.1 MB | 241/338 kB | 16/342 kB | 41/74 kBProgress (4): 0.2/1.1 MB | 241/338 kB | 16/342 kB | 57/74 kBProgress (4): 0.2/1.1 MB | 257/338 kB | 16/342 kB | 57/74 kBProgress (4): 0.2/1.1 MB | 273/338 kB | 16/342 kB | 57/74 kBProgress (4): 0.2/1.1 MB | 273/338 kB | 32/342 kB | 57/74 kBProgress (4): 0.2/1.1 MB | 273/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.2/1.1 MB | 290/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.2/1.1 MB | 290/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 290/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 290/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 306/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 306/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 323/338 kB | 49/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 323/338 kB | 61/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 323/338 kB | 61/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 338 kB | 61/342 kB | 57/74 kB    Progress (4): 0.3/1.1 MB | 338 kB | 61/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 338 kB | 61/342 kB | 57/74 kBProgress (4): 0.3/1.1 MB | 338 kB | 61/342 kB | 74/74 kBProgress (4): 0.3/1.1 MB | 338 kB | 61/342 kB | 74 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar (338 kB at 243 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar
+Progress (3): 0.3/1.1 MB | 61/342 kB | 74 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar (74 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.jar
+Progress (2): 0.4/1.1 MB | 61/342 kBProgress (2): 0.4/1.1 MB | 61/342 kBProgress (2): 0.4/1.1 MB | 61/342 kBProgress (2): 0.4/1.1 MB | 61/342 kBProgress (3): 0.4/1.1 MB | 61/342 kB | 7.7/84 kBProgress (3): 0.4/1.1 MB | 61/342 kB | 16/84 kB Progress (3): 0.4/1.1 MB | 61/342 kB | 16/84 kBProgress (3): 0.4/1.1 MB | 77/342 kB | 16/84 kBProgress (3): 0.4/1.1 MB | 93/342 kB | 16/84 kBProgress (3): 0.4/1.1 MB | 110/342 kB | 16/84 kBProgress (3): 0.4/1.1 MB | 110/342 kB | 32/84 kBProgress (3): 0.4/1.1 MB | 110/342 kB | 32/84 kBProgress (3): 0.4/1.1 MB | 126/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 126/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 142/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 142/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 159/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 159/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 175/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 192/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 208/342 kB | 32/84 kBProgress (3): 0.5/1.1 MB | 208/342 kB | 49/84 kBProgress (3): 0.5/1.1 MB | 208/342 kB | 49/84 kBProgress (3): 0.5/1.1 MB | 208/342 kB | 49/84 kBProgress (3): 0.5/1.1 MB | 208/342 kB | 49/84 kBProgress (3): 0.5/1.1 MB | 208/342 kB | 65/84 kBProgress (4): 0.5/1.1 MB | 208/342 kB | 65/84 kB | 7.7/52 kBProgress (4): 0.5/1.1 MB | 208/342 kB | 65/84 kB | 16/52 kB Progress (4): 0.5/1.1 MB | 208/342 kB | 65/84 kB | 24/52 kBProgress (4): 0.5/1.1 MB | 224/342 kB | 65/84 kB | 24/52 kBProgress (4): 0.5/1.1 MB | 224/342 kB | 81/84 kB | 24/52 kBProgress (4): 0.5/1.1 MB | 241/342 kB | 81/84 kB | 24/52 kBProgress (5): 0.5/1.1 MB | 241/342 kB | 81/84 kB | 24/52 kB | 7.7/150 kBProgress (5): 0.5/1.1 MB | 241/342 kB | 81/84 kB | 24/52 kB | 11/150 kB Progress (5): 0.5/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 11/150 kBProgress (5): 0.5/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 40/52 kB | 28/150 kBProgress (5): 0.6/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 28/150 kB   Progress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 28/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 28/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 44/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 61/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 77/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 93/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 110/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 126/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 142/150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 150 kB    Progress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 150 kBProgress (5): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 52 kB | 150 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar (52 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+Progress (4): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 150 kBProgress (4): 0.7/1.1 MB | 241/342 kB | 81/84 kB | 150 kBProgress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 150 kBProgress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 150 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.6.0/maven-shade-plugin-3.6.0.jar (150 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar
+Progress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 7.7/269 kBProgress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 11/269 kB Progress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 11/269 kBProgress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 11/269 kBProgress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 11/269 kBProgress (4): 0.8/1.1 MB | 241/342 kB | 81/84 kB | 11/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 81/84 kB | 11/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 81/84 kB | 28/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 81/84 kB | 28/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 81/84 kB | 28/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 81/84 kB | 28/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 81/84 kB | 28/269 kBProgress (4): 0.9/1.1 MB | 241/342 kB | 84 kB | 28/269 kB   Progress (4): 0.9/1.1 MB | 241/342 kB | 84 kB | 28/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 28/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 28/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 28/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 28/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 44/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 44/269 kBProgress (4): 1.0/1.1 MB | 241/342 kB | 84 kB | 44/269 kBProgress (4): 1.1/1.1 MB | 241/342 kB | 84 kB | 44/269 kBProgress (4): 1.1/1.1 MB | 241/342 kB | 84 kB | 44/269 kBProgress (4): 1.1 MB | 241/342 kB | 84 kB | 44/269 kB    Progress (5): 1.1 MB | 241/342 kB | 84 kB | 44/269 kB | 7.7/125 kBProgress (5): 1.1 MB | 241/342 kB | 84 kB | 44/269 kB | 16/125 kB Progress (5): 1.1 MB | 241/342 kB | 84 kB | 44/269 kB | 25/125 kBProgress (5): 1.1 MB | 241/342 kB | 84 kB | 61/269 kB | 25/125 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar (84 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar
+Progress (4): 1.1 MB | 257/342 kB | 61/269 kB | 25/125 kBProgress (4): 1.1 MB | 273/342 kB | 61/269 kB | 25/125 kBProgress (4): 1.1 MB | 273/342 kB | 77/269 kB | 25/125 kBProgress (4): 1.1 MB | 273/342 kB | 77/269 kB | 41/125 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar (1.1 MB at 657 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar
+Progress (3): 273/342 kB | 93/269 kB | 41/125 kBProgress (3): 273/342 kB | 93/269 kB | 57/125 kBProgress (3): 273/342 kB | 110/269 kB | 57/125 kBProgress (3): 273/342 kB | 110/269 kB | 74/125 kBProgress (3): 273/342 kB | 126/269 kB | 74/125 kBProgress (3): 273/342 kB | 126/269 kB | 90/125 kBProgress (3): 273/342 kB | 142/269 kB | 90/125 kBProgress (3): 273/342 kB | 142/269 kB | 106/125 kBProgress (3): 273/342 kB | 159/269 kB | 106/125 kBProgress (3): 273/342 kB | 159/269 kB | 123/125 kBProgress (4): 273/342 kB | 159/269 kB | 123/125 kB | 3.2/52 kBProgress (4): 273/342 kB | 175/269 kB | 123/125 kB | 3.2/52 kBProgress (4): 273/342 kB | 175/269 kB | 125 kB | 3.2/52 kB    Progress (4): 273/342 kB | 192/269 kB | 125 kB | 3.2/52 kBProgress (4): 273/342 kB | 208/269 kB | 125 kB | 3.2/52 kBProgress (4): 273/342 kB | 224/269 kB | 125 kB | 3.2/52 kBProgress (4): 290/342 kB | 224/269 kB | 125 kB | 3.2/52 kBProgress (4): 290/342 kB | 224/269 kB | 125 kB | 20/52 kB Progress (4): 306/342 kB | 224/269 kB | 125 kB | 20/52 kBProgress (4): 306/342 kB | 241/269 kB | 125 kB | 20/52 kBProgress (4): 323/342 kB | 241/269 kB | 125 kB | 20/52 kBProgress (4): 323/342 kB | 257/269 kB | 125 kB | 20/52 kBProgress (4): 339/342 kB | 257/269 kB | 125 kB | 20/52 kBProgress (4): 342 kB | 257/269 kB | 125 kB | 20/52 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar (125 kB at 73 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar
+Progress (3): 342 kB | 257/269 kB | 36/52 kBProgress (3): 342 kB | 269 kB | 36/52 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar (342 kB at 196 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar (269 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.10/jdependency-2.10.jar
+Progress (2): 36/52 kB | 7.7/328 kBProgress (3): 36/52 kB | 7.7/328 kB | 7.7/73 kBProgress (3): 36/52 kB | 16/328 kB | 7.7/73 kB Progress (3): 36/52 kB | 16/328 kB | 16/73 kB Progress (3): 36/52 kB | 16/328 kB | 32/73 kBProgress (3): 36/52 kB | 16/328 kB | 49/73 kBProgress (3): 36/52 kB | 16/328 kB | 65/73 kBProgress (3): 36/52 kB | 16/328 kB | 73 kB   Progress (3): 36/52 kB | 24/328 kB | 73 kBProgress (3): 36/52 kB | 40/328 kB | 73 kBProgress (4): 36/52 kB | 40/328 kB | 73 kB | 7.7/509 kBProgress (4): 36/52 kB | 40/328 kB | 73 kB | 11/509 kB Progress (4): 36/52 kB | 57/328 kB | 73 kB | 11/509 kBProgress (4): 36/52 kB | 73/328 kB | 73 kB | 11/509 kBProgress (4): 36/52 kB | 73/328 kB | 73 kB | 28/509 kB                                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar (73 kB at 41 kB/s)
+Progress (4): 36/52 kB | 73/328 kB | 28/509 kB | 3.2/416 kBProgress (4): 36/52 kB | 90/328 kB | 28/509 kB | 3.2/416 kBProgress (4): 52 kB | 90/328 kB | 28/509 kB | 3.2/416 kB   Progress (4): 52 kB | 90/328 kB | 44/509 kB | 3.2/416 kBProgress (4): 52 kB | 90/328 kB | 44/509 kB | 20/416 kB Progress (4): 52 kB | 90/328 kB | 61/509 kB | 20/416 kBProgress (4): 52 kB | 106/328 kB | 61/509 kB | 20/416 kBProgress (4): 52 kB | 106/328 kB | 61/509 kB | 36/416 kBProgress (4): 52 kB | 122/328 kB | 61/509 kB | 36/416 kBProgress (4): 52 kB | 122/328 kB | 77/509 kB | 36/416 kBProgress (4): 52 kB | 139/328 kB | 77/509 kB | 36/416 kBProgress (4): 52 kB | 139/328 kB | 77/509 kB | 52/416 kBProgress (4): 52 kB | 155/328 kB | 77/509 kB | 52/416 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar (52 kB at 28 kB/s)
+Progress (3): 155/328 kB | 77/509 kB | 69/416 kBProgress (3): 172/328 kB | 77/509 kB | 69/416 kBProgress (3): 172/328 kB | 93/509 kB | 69/416 kBProgress (3): 172/328 kB | 93/509 kB | 85/416 kBProgress (3): 172/328 kB | 110/509 kB | 85/416 kBProgress (3): 172/328 kB | 126/509 kB | 85/416 kBProgress (3): 172/328 kB | 126/509 kB | 101/416 kBProgress (3): 172/328 kB | 142/509 kB | 101/416 kBProgress (3): 172/328 kB | 142/509 kB | 118/416 kBProgress (3): 172/328 kB | 159/509 kB | 118/416 kBProgress (3): 172/328 kB | 159/509 kB | 126/416 kBProgress (3): 172/328 kB | 175/509 kB | 126/416 kBProgress (3): 172/328 kB | 175/509 kB | 142/416 kBProgress (3): 172/328 kB | 175/509 kB | 159/416 kBProgress (3): 172/328 kB | 192/509 kB | 159/416 kBProgress (3): 172/328 kB | 208/509 kB | 159/416 kBProgress (3): 172/328 kB | 208/509 kB | 175/416 kBProgress (3): 172/328 kB | 224/509 kB | 175/416 kBProgress (3): 172/328 kB | 224/509 kB | 192/416 kBProgress (3): 172/328 kB | 224/509 kB | 208/416 kBProgress (3): 172/328 kB | 224/509 kB | 224/416 kBProgress (3): 172/328 kB | 224/509 kB | 241/416 kBProgress (3): 172/328 kB | 224/509 kB | 257/416 kBProgress (3): 172/328 kB | 241/509 kB | 257/416 kBProgress (3): 172/328 kB | 257/509 kB | 257/416 kBProgress (3): 172/328 kB | 274/509 kB | 257/416 kBProgress (3): 172/328 kB | 290/509 kB | 257/416 kBProgress (3): 172/328 kB | 306/509 kB | 257/416 kBProgress (3): 172/328 kB | 306/509 kB | 274/416 kBProgress (3): 172/328 kB | 323/509 kB | 274/416 kBProgress (3): 172/328 kB | 339/509 kB | 274/416 kBProgress (3): 172/328 kB | 355/509 kB | 274/416 kBProgress (3): 172/328 kB | 355/509 kB | 290/416 kBProgress (3): 172/328 kB | 372/509 kB | 290/416 kBProgress (3): 172/328 kB | 372/509 kB | 306/416 kBProgress (3): 172/328 kB | 388/509 kB | 306/416 kBProgress (3): 172/328 kB | 388/509 kB | 323/416 kBProgress (3): 172/328 kB | 388/509 kB | 339/416 kBProgress (3): 172/328 kB | 405/509 kB | 339/416 kBProgress (3): 172/328 kB | 405/509 kB | 355/416 kBProgress (3): 172/328 kB | 421/509 kB | 355/416 kBProgress (3): 172/328 kB | 421/509 kB | 372/416 kBProgress (3): 172/328 kB | 437/509 kB | 372/416 kBProgress (3): 172/328 kB | 437/509 kB | 388/416 kBProgress (3): 172/328 kB | 454/509 kB | 388/416 kBProgress (3): 172/328 kB | 454/509 kB | 405/416 kBProgress (3): 172/328 kB | 470/509 kB | 405/416 kBProgress (3): 172/328 kB | 470/509 kB | 416 kB    Progress (3): 172/328 kB | 487/509 kB | 416 kBProgress (3): 172/328 kB | 503/509 kB | 416 kBProgress (3): 172/328 kB | 509 kB | 416 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.10/jdependency-2.10.jar (416 kB at 205 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar (509 kB at 250 kB/s)
+Progress (1): 188/328 kBProgress (1): 204/328 kBProgress (1): 221/328 kBProgress (1): 237/328 kBProgress (1): 253/328 kBProgress (1): 270/328 kBProgress (1): 286/328 kBProgress (1): 303/328 kBProgress (1): 319/328 kBProgress (1): 328 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar (328 kB at 156 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-08-14T20:04:22.805+08:00  INFO 12392 --- [tesda-banking-app] [           main] c.t.banking.TesdaBankingAppApplication   : Starting TesdaBankingAppApplication using Java 21.0.11 with PID 12392 (C:\Users\ariel doctor\Desktop\TESDA-Banking-app\target\classes started by ariel doctor in C:\Users\ariel doctor\Desktop\TESDA-Banking-app)
+2026-08-14T20:04:22.809+08:00  INFO 12392 --- [tesda-banking-app] [           main] c.t.banking.TesdaBankingAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-14T20:04:22.810+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.boot.SpringApplication               : Loading source class com.tesda.banking.TesdaBankingAppApplication
+2026-08-14T20:04:22.879+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@60df60da
+2026-08-14T20:04:24.045+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: C:\Users\ariel doctor\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.0\spring-boot-web-server-4.1.0.jar
+2026-08-14T20:04:24.045+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: C:\Users\ariel doctor\.m2\repository\org\springframework\boot\spring-boot-web-server\4.1.0\spring-boot-web-server-4.1.0.jar
+2026-08-14T20:04:24.046+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2026-08-14T20:04:24.073+08:00  INFO 12392 --- [tesda-banking-app] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-14T20:04:24.089+08:00  INFO 12392 --- [tesda-banking-app] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-14T20:04:24.089+08:00  INFO 12392 --- [tesda-banking-app] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14T20:04:24.159+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] b.w.c.s.WebApplicationContextInitializer : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2026-08-14T20:04:24.160+08:00  INFO 12392 --- [tesda-banking-app] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1281 ms
+2026-08-14T20:04:24.252+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: webMvcObservationFilter urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2026-08-14T20:04:24.291+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-08-14T20:04:24.323+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.s.f.OrderedRequestContextFilter    : Filter 'requestContextFilter' configured for use
+2026-08-14T20:04:24.325+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2026-08-14T20:04:24.325+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2026-08-14T20:04:24.326+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.s.filter.OrderedFormContentFilter  : Filter 'formContentFilter' configured for use
+2026-08-14T20:04:24.410+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.tesda.banking'. Automatic @Repository and @Entity scanning is enabled.
+2026-08-14T20:04:24.488+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2026-08-14T20:04:24.506+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-08-14T20:04:24.524+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-08-14T20:04:24.571+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-08-14T20:04:24.692+08:00  INFO 12392 --- [tesda-banking-app] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-08-14T20:04:24.765+08:00  INFO 12392 --- [tesda-banking-app] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-14T20:04:24.773+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration matched:
+      - @ConditionalOnMissingClass did not find unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   ApplicationAvailabilityAutoConfiguration#applicationAvailability matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.availability.ApplicationAvailability; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   AvailabilityHealthContributorAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.health.contributor.Health' (OnClassCondition)
+
+   AvailabilityProbesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.actuate.endpoint.annotation.Endpoint' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (management.endpoint.health.probes.enabled=true) matched (OnPropertyCondition)
+
+   AvailabilityProbesAutoConfiguration#livenessStateHealthIndicator matched:
+      - @ConditionalOnMissingBean (names: livenessStateHealthIndicator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   AvailabilityProbesAutoConfiguration#readinessStateHealthIndicator matched:
+      - @ConditionalOnMissingBean (names: readinessStateHealthIndicator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   CompositeMeterRegistryAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.instrument.composite.CompositeMeterRegistry' (OnClassCondition)
+
+   DiskSpaceHealthContributorAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.health.contributor.Health' (OnClassCondition)
+      - @ConditionalOnEnabledHealthIndicator management.health.defaults.enabled is considered true (OnEnabledHealthIndicatorCondition)
+
+   DiskSpaceHealthContributorAutoConfiguration#diskSpaceHealthIndicator matched:
+      - @ConditionalOnMissingBean (names: diskSpaceHealthIndicator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   EndpointAutoConfiguration#endpointCachingOperationInvokerAdvisor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.invoker.cache.CachingOperationInvokerAdvisor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   EndpointAutoConfiguration#endpointOperationParameterMapper matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.invoke.ParameterValueMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   EndpointAutoConfiguration#propertiesEndpointAccessResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.EndpointAccessResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.autoconfigure.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.web.error.whitelabel.enabled=true) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthContributorAutoConfiguration#pingHealthContributor matched:
+      - @ConditionalOnEnabledHealthIndicator management.health.defaults.enabled is considered true (OnEnabledHealthIndicatorCondition)
+
+   HealthContributorRegistryAutoConfiguration#healthContributorRegistry matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.health.registry.HealthContributorRegistry; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthEndpointAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.actuate.endpoint.annotation.Endpoint' (OnClassCondition)
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.health.registry.HealthContributorRegistry; SearchStrategy: all) found bean 'healthContributorRegistry' (OnBeanCondition)
+
+   HealthEndpointConfiguration#healthEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.health.actuate.endpoint.HealthEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthEndpointConfiguration#healthEndpointGroupMembershipValidator matched:
+      - @ConditionalOnBooleanProperty (management.endpoint.health.validate-group-membership=true) matched (OnPropertyCondition)
+
+   HealthEndpointConfiguration#healthEndpointGroups matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.health.actuate.endpoint.HealthEndpointGroups; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthEndpointConfiguration#healthHttpCodeStatusMapper matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.health.actuate.endpoint.HttpCodeStatusMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthEndpointConfiguration#healthStatusAggregator matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.health.actuate.endpoint.StatusAggregator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthEndpointWebExtensionConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.health.actuate.endpoint.HealthEndpoint; SearchStrategy: all) found bean 'healthEndpoint' (OnBeanCondition)
+
+   HealthEndpointWebExtensionConfiguration#healthEndpointWebExtension matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.health.actuate.endpoint.HealthEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.encoding.enabled=true) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   InfoEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   InfoEndpointAutoConfiguration#infoEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.info.InfoEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration#jacksonJsonMapper matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration#jsonFactory matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.core.json.JsonFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration#jsonMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JsonProblemDetailsConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.ProblemDetail' (OnClassCondition)
+
+   JacksonEndpointAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+
+   JacksonEndpointAutoConfiguration#endpointJsonMapper matched:
+      - @ConditionalOnBooleanProperty (management.endpoints.jackson.isolated-json-mapper=true) matched (OnPropertyCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) found bean 'jacksonJsonMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration#jacksonJsonHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.JacksonJsonHttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedJacksonJsonHttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJacksonJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry' (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#classLoaderMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.ClassLoaderMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#jvmCompilationMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.JvmCompilationMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#jvmGcMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.JvmGcMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#jvmHeapPressureMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.JvmHeapPressureMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#jvmInfoMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.JvmInfoMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#jvmMemoryMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.JvmMemoryMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JvmMetricsAutoConfiguration#jvmThreadMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.jvm.JvmThreadMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   LogbackMetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'io.micrometer.core.instrument.MeterRegistry', 'ch.qos.logback.classic.LoggerContext', 'org.slf4j.LoggerFactory' (OnClassCondition)
+      - LogbackLoggingCondition ILoggerFactory is a Logback LoggerContext (LogbackMetricsAutoConfiguration.LogbackLoggingCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry' (OnBeanCondition)
+
+   LogbackMetricsAutoConfiguration#logbackMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.logging.LogbackMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ManagementContextAutoConfiguration.SameManagementContextConfiguration matched:
+      - Management Port actual port type (SAME) matched required type (OnManagementPortCondition)
+
+   MetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.annotation.Timed' (OnClassCondition)
+
+   MetricsAutoConfiguration#micrometerClock matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.Clock; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.multipart.enabled=true) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: jakarta.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ObservationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.observation.ObservationRegistry' (OnClassCondition)
+
+   ObservationAutoConfiguration#observationRegistry matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.observation.ObservationRegistry; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ObservationAutoConfiguration#spelValueExpressionResolver matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.common.annotation.ValueExpressionResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ScheduledTasksObservationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+      - @ConditionalOnBean (types: io.micrometer.observation.ObservationRegistry; SearchStrategy: all) found bean 'observationRegistry' (OnBeanCondition)
+
+   ServletEndpointManagementContextConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ServletManagementContextAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   SimpleMetricsExportAutoConfiguration matched:
+      - @ConditionalOnEnabledMetricsExport management.defaults.metrics.export.enabled is considered true (OnMetricsExportEnabledCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.Clock; SearchStrategy: all) found bean 'micrometerClock'; @ConditionalOnMissingBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SimpleMetricsExportAutoConfiguration#simpleConfig matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.simple.SimpleConfig; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SslAutoConfiguration#sslBundleRegistry matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.ssl.SslBundleRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SslHealthContributorAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.health.contributor.Health' (OnClassCondition)
+      - @ConditionalOnEnabledHealthIndicator management.health.defaults.enabled is considered true (OnEnabledHealthIndicatorCondition)
+
+   SslHealthContributorAutoConfiguration#sslHealthIndicator matched:
+      - @ConditionalOnMissingBean (names: sslHealthIndicator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SslHealthContributorAutoConfiguration#sslInfo matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.info.SslInfo; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SslMetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) found beans 'sslBundleRegistry', 'simpleMeterRegistry' (OnBeanCondition)
+
+   StartupTimeMetricsListenerAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry' (OnBeanCondition)
+
+   StartupTimeMetricsListenerAutoConfiguration#startupTimeMetrics matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.micrometer.metrics.startup.StartupTimeMetricsListener; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SystemMetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry' (OnBeanCondition)
+
+   SystemMetricsAutoConfiguration#diskSpaceMetrics matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.micrometer.metrics.system.DiskSpaceMetricsBinder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SystemMetricsAutoConfiguration#fileDescriptorMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.system.FileDescriptorMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SystemMetricsAutoConfiguration#processorMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.system.ProcessorMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SystemMetricsAutoConfiguration#uptimeMetrics matched:
+      - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.system.UptimeMetrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.ThreadPoolTaskExecutorBuilderConfiguration#threadPoolTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorMetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.instrument.binder.jvm.ExecutorServiceMetrics' (OnClassCondition)
+      - @ConditionalOnBean (types: java.util.concurrent.Executor,io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found beans 'applicationTaskExecutor', 'simpleMeterRegistry' (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TomcatMetricsAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'io.micrometer.core.instrument.binder.tomcat.TomcatMetrics', 'org.apache.catalina.Manager', 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   TomcatMetricsAutoConfiguration#tomcatMetricsBinder matched:
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry'; @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.tomcat.TomcatMetrics,org.springframework.boot.tomcat.metrics.TomcatMetricsBinder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TomcatServletWebServerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.ServletRequest', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol', 'org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatServletWebServerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.server.servlet.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   TomcatWebServerConfiguration matched:
+      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
+
+   TomcatWebServerConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   ValidationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.validation.executable.ExecutableValidator' (OnClassCondition)
+      - @ConditionalOnResource found location classpath:META-INF/services/jakarta.validation.spi.ValidationProvider (OnResourceCondition)
+
+   ValidationAutoConfiguration#defaultValidator matched:
+      - @ConditionalOnMissingBean (types: jakarta.validation.Validator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   WebEndpointAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   WebEndpointAutoConfiguration#controllerEndpointDiscoverer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.web.annotation.ControllerEndpointsSupplier; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebEndpointAutoConfiguration#endpointMediaTypes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.web.EndpointMediaTypes; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebEndpointAutoConfiguration#pathMappedEndpoints matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.web.PathMappedEndpoints; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebEndpointAutoConfiguration#webEndpointDiscoverer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.web.WebEndpointsSupplier; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebEndpointAutoConfiguration.WebEndpointServletConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   WebEndpointAutoConfiguration.WebEndpointServletConfiguration#servletEndpointDiscoverer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.web.annotation.ServletEndpointsSupplier; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnBooleanProperty (spring.mvc.formcontent.filter.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#viewNameTranslator matched:
+      - @ConditionalOnMissingBean (names: viewNameTranslator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet,org.springframework.boot.actuate.endpoint.web.WebEndpointsSupplier; SearchStrategy: all) found beans 'webEndpointDiscoverer', 'dispatcherServlet' (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration#controllerEndpointHandlerMapping matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.actuate.endpoint.web.ControllerEndpointHandlerMapping; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration#endpointJsonMapperWebMvcConfigurer matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.endpoint.jackson.EndpointJsonMapper; SearchStrategy: all) found bean 'endpointJsonMapper' (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration#webEndpointServletHandlerMapping matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.actuate.endpoint.web.WebMvcEndpointHandlerMapping; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration.HealthConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.health.actuate.endpoint.HealthEndpoint' (OnClassCondition)
+
+   WebMvcHealthEndpointExtensionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.health.actuate.endpoint.HealthEndpoint' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.health.actuate.endpoint.HealthEndpoint,org.springframework.boot.actuate.endpoint.web.WebEndpointsSupplier,org.springframework.boot.health.actuate.endpoint.HealthEndpointGroups; SearchStrategy: all) found beans 'webEndpointDiscoverer', 'healthEndpoint', 'healthEndpointGroups' (OnBeanCondition)
+
+   WebMvcObservationAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.web.servlet.DispatcherServlet', 'io.micrometer.observation.Observation', 'org.springframework.boot.micrometer.observation.autoconfigure.ObservationProperties' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBean (types: io.micrometer.observation.ObservationRegistry; SearchStrategy: all) found bean 'observationRegistry' (OnBeanCondition)
+
+   WebMvcObservationAutoConfiguration#webMvcObservationFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.ServerHttpObservationFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcObservationAutoConfiguration.MeterFilterConfiguration matched:
+      - @ConditionalOnClass found required classes 'io.micrometer.core.instrument.MeterRegistry', 'org.springframework.boot.micrometer.metrics.autoconfigure.MetricsProperties' (OnClassCondition)
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry' (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   AppOpticsMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.appoptics.AppOpticsMeterRegistry' (OnClassCondition)
+
+   AtlasMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.atlas.AtlasMeterRegistry' (OnClassCondition)
+
+   AuditAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.audit.AuditEventRepository; SearchStrategy: all) did not find any beans of type org.springframework.boot.actuate.audit.AuditEventRepository (OnBeanCondition)
+      Matched:
+         - @ConditionalOnBooleanProperty (management.auditevents.enabled=true) matched (OnPropertyCondition)
+
+   AuditEventsEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   AvailabilityHealthContributorAutoConfiguration#livenessStateHealthIndicator:
+      Did not match:
+         - @ConditionalOnBooleanProperty (management.health.livenessstate.enabled=true) did not find property 'management.health.livenessstate.enabled' (OnPropertyCondition)
+
+   AvailabilityHealthContributorAutoConfiguration#readinessStateHealthIndicator:
+      Did not match:
+         - @ConditionalOnBooleanProperty (management.health.readinessstate.enabled=true) did not find property 'management.health.readinessstate.enabled' (OnPropertyCondition)
+
+   BeansEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   CompositeMeterRegistryConfiguration:
+      Did not match:
+         - NoneNestedConditions 1 matched 1 did not; NestedCondition on CompositeMeterRegistryConfiguration.MultipleNonPrimaryMeterRegistriesCondition.SingleInjectableMeterRegistry @ConditionalOnSingleCandidate (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found a single bean 'simpleMeterRegistry'; NestedCondition on CompositeMeterRegistryConfiguration.MultipleNonPrimaryMeterRegistriesCondition.NoMeterRegistryCondition @ConditionalOnMissingBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found beans of type 'io.micrometer.core.instrument.MeterRegistry' simpleMeterRegistry (CompositeMeterRegistryConfiguration.MultipleNonPrimaryMeterRegistriesCondition)
+
+   ConditionsReportEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   ConfigurationPropertiesReportEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   DatadogMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.datadog.DatadogMeterRegistry' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   DynatraceMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.dynatrace.DynatraceMeterRegistry' (OnClassCondition)
+
+   ElasticMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.elastic.ElasticMeterRegistry' (OnClassCondition)
+
+   EnvironmentEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   GangliaMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.ganglia.GangliaMeterRegistry' (OnClassCondition)
+
+   GraphiteMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.graphite.GraphiteMeterRegistry' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   HealthContributorRegistryAutoConfiguration.ReactiveHealthContributorRegistryConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   HealthEndpointReactiveWebExtensionConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   HeapDumpWebEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint the configured access for endpoint 'heapdump' is NONE (OnAvailableEndpointCondition)
+
+   HttpExchangesEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   HumioMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.humio.HumioMeterRegistry' (OnClassCondition)
+
+   InfluxMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.influx.InfluxMeterRegistry' (OnClassCondition)
+
+   InfoContributorAutoConfiguration#buildInfoContributor:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.boot.info.BuildProperties; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnEnabledInfoContributor management.info.defaults.enabled is considered true (OnEnabledInfoContributorCondition)
+
+   InfoContributorAutoConfiguration#envInfoContributor:
+      Did not match:
+         - @ConditionalOnEnabledInfoContributor management.info.env.enabled is not true (OnEnabledInfoContributorCondition)
+
+   InfoContributorAutoConfiguration#gitInfoContributor:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.boot.info.GitProperties; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnEnabledInfoContributor management.info.defaults.enabled is considered true (OnEnabledInfoContributorCondition)
+
+   InfoContributorAutoConfiguration#javaInfoContributor:
+      Did not match:
+         - @ConditionalOnEnabledInfoContributor management.info.java.enabled is not true (OnEnabledInfoContributorCondition)
+
+   InfoContributorAutoConfiguration#osInfoContributor:
+      Did not match:
+         - @ConditionalOnEnabledInfoContributor management.info.os.enabled is not true (OnEnabledInfoContributorCondition)
+
+   InfoContributorAutoConfiguration#processInfoContributor:
+      Did not match:
+         - @ConditionalOnEnabledInfoContributor management.info.process.enabled is not true (OnEnabledInfoContributorCondition)
+
+   InfoContributorAutoConfiguration#sslInfo:
+      Did not match:
+         - @ConditionalOnEnabledInfoContributor management.info.ssl.enabled is not true (OnEnabledInfoContributorCondition)
+      Matched:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.info.SslInfo; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   InfoContributorAutoConfiguration#sslInfoContributor:
+      Did not match:
+         - @ConditionalOnEnabledInfoContributor management.info.ssl.enabled is not true (OnEnabledInfoContributorCondition)
+
+   Jackson2EndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.CborConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.cbor.CBORMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.XmlConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonXmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JmxEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+
+   JmxMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.jmx.JmxMeterRegistry' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   JvmMetricsAutoConfiguration.VirtualThreadMetricsConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.java21.instrument.binder.jdk.VirtualThreadMetrics' (OnClassCondition)
+
+   KairosMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.kairos.KairosMeterRegistry' (OnClassCondition)
+
+   KotlinSerializationHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'kotlinx.serialization.Serializable', 'kotlinx.serialization.json.Json' (OnClassCondition)
+
+   Log4J2MetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.logging.log4j.core.LoggerContext' (OnClassCondition)
+
+   LogFileWebEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   LoggersEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   ManagementContextAutoConfiguration.DifferentManagementContextConfiguration:
+      Did not match:
+         - Management Port actual port type (SAME) did not match required type (DIFFERENT) (OnManagementPortCondition)
+
+   MappingsEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MetricsAspectsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   MetricsEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint', 'io.micrometer.core.annotation.Timed' (OnClassCondition)
+
+   NewRelicMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.newrelic.NewRelicMeterRegistry' (OnClassCondition)
+
+   NoOpMeterRegistryConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found beans of type 'io.micrometer.core.instrument.MeterRegistry' simpleMeterRegistry (OnBeanCondition)
+
+   ObservationAutoConfiguration.ObservedAspectConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   OtlpMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.registry.otlp.OtlpMeterRegistry' (OnClassCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   PrometheusMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.prometheusmetrics.PrometheusMeterRegistry' (OnClassCondition)
+
+   SbomEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   ScheduledTasksEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   ServletHttpExchangesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.web.exchanges.HttpExchangeRepository; SearchStrategy: all) did not find any beans of type org.springframework.boot.actuate.web.exchanges.HttpExchangeRepository (OnBeanCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+         - @ConditionalOnBooleanProperty (management.httpexchanges.recording.enabled=true) matched (OnPropertyCondition)
+
+   ServletManagementContextAutoConfiguration.ApplicationContextFilterConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (management.server.add-application-context-header=true) did not find property 'management.server.add-application-context-header' (OnPropertyCondition)
+
+   ServletMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint', 'org.springframework.boot.actuate.web.mappings.MappingsEndpoint' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebServerConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   ShutdownEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint the configured access for endpoint 'shutdown' is NONE (OnAvailableEndpointCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.application.admin.enabled=true) did not find property 'spring.application.admin.enabled' (OnPropertyCondition)
+
+   StackdriverMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.stackdriver.StackdriverMeterRegistry' (OnClassCondition)
+
+   StartupEndpointAutoConfiguration:
+      Did not match:
+         - ApplicationStartup configured applicationStartup is of type class org.springframework.core.metrics.DefaultApplicationStartup, expected BufferingApplicationStartup. (StartupEndpointAutoConfiguration.ApplicationStartupCondition)
+
+   StatsdMetricsExportAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.statsd.StatsdMeterRegistry' (OnClassCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder' simpleAsyncTaskExecutorBuilder (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorContextPropagationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.context.ContextSnapshot' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder' simpleAsyncTaskSchedulerBuilder (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   ThreadDumpEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+
+   TomcatReactiveManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   TomcatReactiveWebServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   TomcatServletManagementContextAutoConfiguration:
+      Did not match:
+         - Management Port actual port type (SAME) did not match required type (DIFFERENT) (OnManagementPortCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatForwardedHeaderFilterCustomizer:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   TomcatWebServerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.hiddenmethod.filter.enabled=true) did not find property 'spring.mvc.hiddenmethod.filter.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.problemdetails.enabled=true) did not find property 'spring.mvc.problemdetails.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarVersionLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration#endpointJackson2ObjectMapperWebMvcConfigurer:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.endpoint.jackson.EndpointJackson2ObjectMapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.actuate.endpoint.jackson.EndpointJackson2ObjectMapper (OnBeanCondition)
+
+   WebMvcEndpointManagementContextConfiguration.HealthConfiguration#managementHealthEndpointWebMvcHandlerMapping:
+      Did not match:
+         - Management Port actual port type (SAME) did not match required type (DIFFERENT) (OnManagementPortCondition)
+
+   WebMvcMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.boot.actuate.web.mappings.MappingsEndpoint' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.health.autoconfigure.registry.HealthContributorRegistryAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+
+    org.springframework.boot.actuate.autoconfigure.info.InfoContributorAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.actuate.autoconfigure.endpoint.EndpointAutoConfiguration
+
+    org.springframework.boot.health.autoconfigure.contributor.HealthContributorAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+    org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration
+
+
+
+2026-08-14T20:04:24.776+08:00  INFO 12392 --- [tesda-banking-app] [           main] c.t.banking.TesdaBankingAppApplication   : Started TesdaBankingAppApplication in 2.696 seconds (process running for 4.038)
+2026-08-14T20:04:24.853+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2026-08-14T20:04:24.855+08:00 DEBUG 12392 --- [tesda-banking-app] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2026-08-14T20:04:28.530+08:00  INFO 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-14T20:04:28.530+08:00  INFO 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-14T20:04:28.531+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-08-14T20:04:28.531+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-08-14T20:04:28.532+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4bc52dc7
+2026-08-14T20:04:28.533+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@12021973
+2026-08-14T20:04:28.533+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-08-14T20:04:28.534+08:00  INFO 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-08-14T20:04:28.551+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2026-08-14T20:04:28.558+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tesda.banking.api.HelloWorldController#helloWorld()
+2026-08-14T20:04:28.576+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-08-14T20:04:28.577+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2026-08-14T20:04:28.584+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-08-14T20:07:07.758+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2026-08-14T20:07:07.761+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tesda.banking.api.HelloWorldController#helloWorld()
+2026-08-14T20:07:07.763+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2026-08-14T20:07:07.765+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2026-08-14T20:07:07.767+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-08-14T20:07:07.885+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2026-08-14T20:07:07.891+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-08-14T20:07:07.895+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found for path [favicon.ico]
+2026-08-14T20:07:07.896+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-08-14T20:07:07.898+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-08-14T20:07:07.906+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-08-14T20:07:07.907+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-08-14T20:07:07.913+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-08-14T20:07:07.914+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Aug 14 20:07:07 CST 2026, status=404, error=Not Found, path=/favicon.ico}]
+2026-08-14T20:07:07.955+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2026-08-14T20:11:52.597+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2026-08-14T20:11:52.624+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.tesda.banking.api.HelloWorldController#helloWorld()
+2026-08-14T20:11:52.636+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2026-08-14T20:11:52.637+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2026-08-14T20:11:52.650+08:00 DEBUG 12392 --- [tesda-banking-app] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:57 min
+[INFO] Finished at: 2026-08-14T20:12:05+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.1.0:run (default-cli) on project banking-app: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
